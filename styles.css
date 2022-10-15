@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
+    margin: 0;
+}
+
+#sidebar {
+    grid-row: 1 / -1;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#trending {
+    grid-column: 2;
+}
+
+#projects {
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#projects h1 {
+    grid-row: 1;
+    grid-column: 1 / -1;
+}
+
+#announcements {
+    grid-column: 2;
+    grid-row: 1 / -1
+}
