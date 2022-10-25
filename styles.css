@@ -11,6 +11,26 @@ body {
     color: white;
 }
 
+#sidebar p {
+    height: 24px;
+    margin: 0px;
+}
+
+#logo {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#list-1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#list-2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
 #main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -59,4 +79,15 @@ body {
     padding: 10px;
     margin: 20px;
     background-color: white;
+}
+
+input {
+    border-radius: 16px;
+    background-color: #dfdfdf;
+    border: thin #dfdfdf;
+    height: 25px;
+}
+
+.header-icons {
+    height: 25px;
 }
