@@ -75,9 +75,9 @@ body {
 
 #header {
     display: grid;
-    grid-template-rows: 1fr 1.5fr;
+    grid-template-rows: 50px 100px;
     grid-template-columns: 2fr 1fr;
-    padding: 50px;
+    padding: 20px 40px 20px 40px;
 }
 
 #searchbar {
@@ -87,8 +87,9 @@ body {
 
 #notifications {
     display: grid;
-    grid-template-columns: 30px 30px 300px;
+    grid-template-columns: 30px 30px 170px;
     gap: 30px;
+    padding-left: 100px;
 }
 
 .card {
@@ -98,6 +99,7 @@ body {
     padding: 10px;
     margin: 20px;
     background-color: white;
+    height: 200px;
 }
 
 input {
@@ -109,4 +111,33 @@ input {
 
 .header-icons {
     height: 25px;
+}
+
+#buttons {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 75px 75px 75px;
+    grid-template-rows: 40px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+#profile {
+    display: grid;
+    grid-template-columns: 30px 250px;
+    grid-template-rows: 40px 40px;
+    column-gap: 30px;
+}
+
+#profilepic {
+    grid-row: 1 / -1;
+    grid-column: 1;
+    padding-top: 25px;
+}
+
+button {
+    background-color: #9333ea;
+    color: white;
+    border: none;
+    border-radius: 50px;
 }
