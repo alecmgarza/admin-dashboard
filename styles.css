@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 6fr;
     grid-template-columns: 1fr 4fr;
     margin: 0;
 }
@@ -92,6 +92,15 @@ body {
     padding-left: 100px;
 }
 
+.project-card {
+    border: solid rgb(220, 220, 220) thin;
+    border-left: #9333ea solid thick;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    height: 250px;
+}
 .card {
     border: solid rgb(220, 220, 220) thin;
     border-left: #9333ea solid thick;
@@ -99,7 +108,6 @@ body {
     padding: 10px;
     margin: 20px;
     background-color: white;
-    height: 200px;
 }
 
 input {
