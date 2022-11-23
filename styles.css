@@ -114,10 +114,23 @@ body {
     border: solid rgb(220, 220, 220) thin;
     border-left: #9333ea solid thick;
     border-radius: 8px;
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
     background-color: white;
     height: 240px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 6fr 1fr 1fr 1fr;
+}
+
+.project-card h2 {
+    grid-row: 1;
+    grid-column: 1 / -1;
+}
+
+.project-card p {
+    grid-row: 2;
+    grid-column: 1 / -1;
 }
 
 .announcement-card {
