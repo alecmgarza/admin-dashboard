@@ -3,6 +3,12 @@ body {
     grid-template-rows: 180px 1fr;
     grid-template-columns: 1fr 4fr;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#searchbar {
+    display: grid;
+    grid-template-columns: 28px 1fr;
 }
 
 #sidebar {
